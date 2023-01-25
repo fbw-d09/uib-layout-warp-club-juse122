@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Jura';
+    font-weight: 400;
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(assets/background.jpg);
+    background-size: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.nav ul li:last-child {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.nav ul li a {
+    font-size: 1.8rem;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#contact {
+    background-color: red;
+    padding: 6px 15px;
+    margin: 9px 0;
+    border-radius: 5px;
+    border: 0.5px solid white;
+}
+
+#contact:hover {
+    background-color: lightcoral;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.warp-club {
+    display: flex;
+    justify-content: center;
+    margin-top: 52.69px;
+}
+
+.column1, .column2 {
+    width: 50%;
+    height: 500px;
+}
+
+.column1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column1 h1 {
+    transform: rotate(90deg);
+    color: red;
+    font-size: 82px;
+}
+
+.column2 {
+    background-image: url(assets/main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
